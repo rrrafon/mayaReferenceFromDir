@@ -1,5 +1,9 @@
 import re, glob, os
 
 
-def getLatestFile(filePath = r'D:/', fileName = 'runan', ext = '.jpg'):
+def getLatestPublishedFile(filePath = r'D:author/is/', fileName = 'runan', ext = '.ma'):
+  
+  pattern = r'%s%s'%(fileName, ext)
+  
+
   
